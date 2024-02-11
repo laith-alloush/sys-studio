@@ -1,0 +1,6 @@
+#!/bin/sh -exu
+
+./scripts/-from-docker \
+  ansible-playbook \
+  -i /leihs-instance/hosts \
+  "$@"
